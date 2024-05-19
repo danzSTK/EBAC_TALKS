@@ -1,4 +1,6 @@
 @use 'hero';
+@use 'components/infos_bar';
+@use 'components/buttons';
 
 *{
     margin: 0;
@@ -8,6 +10,9 @@
     color: #fff;
 }
 
+li{
+    list-style: none;
+}
 .container{
     max-width: 960px;
     width: 100%;
